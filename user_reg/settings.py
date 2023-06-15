@@ -136,13 +136,6 @@ MEDIA_ROOT = MEDIA_DIR
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-# Email sending manually 
-# EMAIL_HOST = 'smpt.gmail.com'
-# EMAIL_HOST_USER = 'prabhatharun1245@gmail.com'
-# EMAIL_HOST_PASSWORD = 'zylzuypoaydiwjqi'    # we need to give ap password
-# EMAIL_PORT = '465'
-# EMAIL_USE_TLS = False # if u use this port number = 587
-# EMAIL_USE_SSL = True  # if u use this port number = 465
 
 
 EMAIL_HOST = 'smtp.gmail.com'
