@@ -34,7 +34,7 @@ def registration(request):
             nspo.save()
             send_mail('Registration',
                       "Succefully Registration is Done",
-                      'prabhatharun1234@gmail.com',
+                      'prabhatharun12@gmail.com',
                       [nsuo.email],
                       fail_silently=False
                       )
